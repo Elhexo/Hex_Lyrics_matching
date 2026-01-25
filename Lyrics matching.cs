@@ -22,7 +22,7 @@ namespace Lyrics_matching
             {
                 Console.WriteLine("Choose an option:");
                 Console.WriteLine("1. Extra");
-                Console.WriteLine("2. Mistletoe");
+                Console.WriteLine("2. Sleep Paralysi");
                 Console.WriteLine("0. to exit the program");
                 Console.WriteLine("------------------------");
                 string? songChoice = Console.ReadLine();
@@ -34,17 +34,17 @@ namespace Lyrics_matching
                         string path1 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Songs", "extra.mp3");   
                         Console.Clear();
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("Playing Extra...");
-                        Thread.Sleep(1500);
+                       // Console.WriteLine("Playing Extra...");
+                       // Thread.Sleep(1500);
                         Console.ResetColor();
                         Console.Clear();
 
                         audioPlayer.Play(path1);
-                        Console.WriteLine(" I was broken.");
+                        Console.WriteLine("I was broken.");
                         Thread.Sleep(2000);
 
-                        Console.WriteLine("i was shut down.");
-                        Thread.Sleep(1100); 
+                        Console.WriteLine("I was shut down.");
+                        Thread.Sleep(1200); 
 
                         Console.WriteLine("'Till i found a new home");
                         Thread.Sleep(1235);
@@ -53,20 +53,33 @@ namespace Lyrics_matching
                         Thread.Sleep(1267);
 
                         Console.WriteLine("I know it'll work out");
-                        Thread.Sleep(1750);
+                        Thread.Sleep(1700);
 
+                        Console.WriteLine("Girl, you got me turnt out");
+                        Thread.Sleep(1500);
+
+                        Console.WriteLine("Fuck until we burnt out");
+                        Thread.Sleep(1400);
+
+                        Console.WriteLine("Do it like you know how");
+                        Thread.Sleep(1300);
+
+                        Console.WriteLine("Thought it was a hex on me");
+                        Thread.Sleep(1640);
+
+                        Console.WriteLine("Until you fucked the curse out");
+                        Thread.Sleep(1500);
                         audioPlayer.Stop();
                         break;
 
                     case "2":
-                        string path2 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Songs", "mistletoe.mp3");
+                        string path2 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Songs", "Sleep Paralysi.mp3");
                         audioPlayer.Play(path2);
-                        string[] gameLyrics = {"Mistletoe"};
-                        foreach (string lyric in gameLyrics)
-                        {
-                            Console.WriteLine(lyric);
-                            Thread.Sleep(2000);
-                        }
+                        Console.Clear();
+
+                        Thread.Sleep(4750);
+                        Console.Write("Sleep Paralysi again");
+
                         audioPlayer.Stop();
                         break;
 
