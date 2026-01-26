@@ -2,6 +2,7 @@
 using System.Threading;
 using NetCoreAudio;
 using System.IO;
+
 namespace Lyrics_matching
 {
     //This is a simple program that plays songs and displays lyrics in the console. This projec isn't fully done yet, made on 25/01/2026
@@ -44,7 +45,7 @@ namespace Lyrics_matching
                         Thread.Sleep(2000);
 
                         Console.WriteLine("I was shut down.");
-                        Thread.Sleep(1200); 
+                        Thread.Sleep(1100); 
 
                         Console.WriteLine("'Till i found a new home");
                         Thread.Sleep(1235);
@@ -68,7 +69,52 @@ namespace Lyrics_matching
                         Thread.Sleep(1640);
 
                         Console.WriteLine("Until you fucked the curse out");
+                        Thread.Sleep(1440);
+
+                        Console.WriteLine("Don't nobody try to go on me");
+                        Thread.Sleep(1333);
+
+                        Console.WriteLine("They'll get more than cursed out");
+                        Thread.Sleep(1311);
+
+                        Console.WriteLine("Love having you around");
+                        Thread.Sleep(1551);
+
+                        Console.WriteLine("Love the way you hold me down");
+                        Thread.Sleep(1661);
+
+                        Console.WriteLine("In that kitty, I'ma drown");
+                        Thread.Sleep(1400);
+
+                        Console.WriteLine("It got that macaroni sound");
                         Thread.Sleep(1500);
+
+                        Console.WriteLine("Have troble breathing");
+                        Thread.Sleep(2580);
+
+                        Console.WriteLine("It's because i need her");
+                        Thread.Sleep(2800);
+
+                        Console.WriteLine("For reasons beyond our comprehension");
+                        Thread.Sleep(4000);
+
+                        Console.WriteLine("I forgot to mention");
+                        Thread.Sleep(1500);
+
+                        Console.WriteLine("Your love is an addiction");
+                        Thread.Sleep(2700);
+
+                        Console.WriteLine("And I've been tryna get my fix on");
+                        Thread.Sleep(2300);
+
+
+
+
+
+
+
+
+
                         audioPlayer.Stop();
                         break;
 
