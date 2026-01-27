@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Lyrics_matching
 {
-    //This is a simple program that plays songs and displays lyrics in the console. This projec isn't fully done yet, made on 25/01/2026
+    //This is a simple program that plays songs and displays lyrics in the console. This projec isn't fully done yet, made on 25/01/2026, Today (27/01/2026) i decide tp leave this shit. I am done with typing and timing lyrics
     internal class Program
     {
         static Player audioPlayer = new Player();
