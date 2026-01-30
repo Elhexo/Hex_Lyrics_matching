@@ -1,7 +1,8 @@
-﻿using System;
-using System.Threading;
-using NetCoreAudio;
+﻿using NetCoreAudio;
+using System;
 using System.IO;
+using System.Runtime.Intrinsics.X86;
+using System.Threading;
 
 namespace Lyrics_matching
 {
@@ -24,6 +25,7 @@ namespace Lyrics_matching
                 Console.WriteLine("Choose an option:");
                 Console.WriteLine("1. Extra");
                 Console.WriteLine("2. Sleep Paralysi");
+                Console.WriteLine("3. True Love");
                 Console.WriteLine("0. to exit the program");
                 Console.WriteLine("------------------------");
                 string? songChoice = Console.ReadLine();
@@ -107,6 +109,8 @@ namespace Lyrics_matching
                         Console.WriteLine("And I've been tryna get my fix on");
                         Thread.Sleep(2300);
 
+                     
+
 
 
 
@@ -129,7 +133,92 @@ namespace Lyrics_matching
                         audioPlayer.Stop();
                         break;
 
+                    case "3": // I might said i am finished but i couldn't pass out a master piece like this, 30/01/26. (NOT FINISHED YET)
+                        string path3 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Songs", "True Love.mp3");
+                        audioPlayer.Play(path3);
+                        Console.Clear();
+                        
+                       
+                        Console.Write("True love ");
+                        Thread.Sleep(2500);
 
+                        Console.Write("Shouldn't be this complicated,");
+                        Thread.Sleep(3500);
+
+                        Console.WriteLine("I thought I'd die in your arms" );
+                        Thread.Sleep(2900);
+
+                        Console.WriteLine("I thought I′d die in your-");
+                        Thread.Sleep(2500);
+
+                        Console.Clear();
+
+                        Console.Write("True love ");
+                        Thread.Sleep(2500);
+
+                        Console.Write("Shouldn't be this complicated,");
+                        Thread.Sleep(3500);
+
+                        Console.WriteLine("I thought I'd die in your arms");
+                        Thread.Sleep(2900);
+
+                        Console.WriteLine("I thought I′d die in your-");
+                        Thread.Sleep(2200);
+
+                        Console.Clear();
+                        Console.Write("No hard feelings, but these feelings harder ");
+                        Thread.Sleep(2300);
+
+                        Console.Clear();
+                        Console.Write("No-no hard feelings, but these feelings harder");
+                        Thread.Sleep(2600);
+
+                        Console.Clear();
+                        Console.Write("No-no hard feelings, but these feelings harder X2 ");
+                        Thread.Sleep(2600);
+
+                        Console.Clear();
+                        Console.Write("Wait, when you see the kids ? I′ll see y'all tomorrow ");
+                        Thread.Sleep(3200);
+
+                        Console.WriteLine("Wait, when the sun set? I see y′all tomorrow");
+                        Thread.Sleep(2600);
+
+                        Console.Write("Wait, when I pick 'em up, I feel like they borrowed ");
+                        Thread.Sleep(3000);
+
+                        Console.Clear();
+                        Console.Write("When I gotta return them, scan ′em like a barcode ");
+                        Thread.Sleep(2900);
+
+                        Console.Write("Wait, no hard feelings, but these feelings hard though ");
+                        Thread.Sleep(3000);
+
+                        Console.Write("Wait, who got the kids in those 'What are those?' ");
+                        Thread.Sleep(2900);
+
+                        Console.Clear();
+
+                        Console.Write("Wait, why they can't wear Yeezys with the cargos? ");
+                        Thread.Sleep(2700);
+
+                        Console.Write("Y′all know Nike don't like me, y'all take it too far, though");
+                        Thread.Sleep(3000);
+
+                        Console.Write("At least have ′em in some Mike′s, he played for Chicago");
+                        Thread.Sleep(2800);
+
+                        Console.Clear();
+
+                        Console.WriteLine("I only see three kids, who watchin' Chicago?");
+                        Thread.Sleep(2700);
+
+
+
+
+
+                        audioPlayer.Stop();
+                        break;
                     case "0":
                         KeepPlaying = false;
                         Console.Clear();

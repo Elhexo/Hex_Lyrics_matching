@@ -1,1 +1,2 @@
-This is a simple program that match the lyrics with the song. The songs are (Extra by juice wrld unreleased. Mistletoe by juice wrld unreleased(Not used yet). Sleep Paralysi by juice wrld unreleased) And more coming soon.The reason i made it, because i like listening to music while working. But Mostly because my favourite get deleted or doesn't have lyrics matching
+This is a simple program that match the lyrics with the song. The songs are (Extra by juice wrld unreleased. Mistletoe by juice wrld unreleased(Not used yet). Sleep Paralysi by juice wrld unreleased) (True love by Kanye West & 
+XXXTENTACION) And more coming soon.The reason i made it, because i like listening to music while working. But Mostly because my favourite get deleted or doesn't have lyrics matching
