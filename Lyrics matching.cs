@@ -133,7 +133,7 @@ namespace Lyrics_matching
                         audioPlayer.Stop();
                         break;
 
-                    case "3": // I might said i am finished but i couldn't pass out a master piece like this, 30/01/26. (NOT FINISHED YET)
+                    case "3": // I might said i am finished but i couldn't pass out a master piece like this, 30/01/26. (NOT FINISHED YET).
                         string path3 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Songs", "True Love.mp3");
                         audioPlayer.Play(path3);
                         Console.Clear();
