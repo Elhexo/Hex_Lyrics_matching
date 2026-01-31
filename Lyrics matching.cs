@@ -12,6 +12,7 @@ namespace Lyrics_matching
         static Player audioPlayer = new Player();
         static void Main(string[] args)
         {
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("---WELCOME TO HEX LYRICS MATCHING--");
             Console.ResetColor();
@@ -123,6 +124,7 @@ namespace Lyrics_matching
                         break;
 
                     case "2":
+
                         string path2 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Songs", "Sleep Paralysi.mp3");
                         audioPlayer.Play(path2);
                         Console.Clear();
@@ -133,7 +135,7 @@ namespace Lyrics_matching
                         audioPlayer.Stop();
                         break;
 
-                    case "3": // I might said i am finished but i couldn't pass out a master piece like this, 30/01/26. (NOT FINISHED YET)
+                    case "3": // I might said i am finished but i couldn't pass out a master piece like this, 30/01/26. (Finished on 31/01/26)
                         string path3 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Songs", "True Love.mp3");
                         audioPlayer.Play(path3);
                         Console.Clear();
@@ -202,8 +204,8 @@ namespace Lyrics_matching
                         Console.Write("Wait, why they can't wear Yeezys with the cargos? ");
                         Thread.Sleep(2700);
 
-                        Console.Write("Y′all know Nike don't like me, y'all take it too far, though");
-                        Thread.Sleep(3000);
+                        Console.Write("Y′all know Nike don't like me, y'all take it too far, though ");
+                        Thread.Sleep(2800);
 
                         Console.Write("At least have ′em in some Mike′s, he played for Chicago");
                         Thread.Sleep(2800);
@@ -211,12 +213,95 @@ namespace Lyrics_matching
                         Console.Clear();
 
                         Console.WriteLine("I only see three kids, who watchin' Chicago?");
-                        Thread.Sleep(2700);
+                        Thread.Sleep(2900);
 
+                        Console.WriteLine("And you know all the nannies they′re Danny Nesbrasco");
+                        Thread.Sleep(3000);
 
+                        Console.WriteLine("Let the kids dig a tunnel to my house like Chapo");
+                        Thread.Sleep(2800);
 
+                        Console.WriteLine("Only neighbor in the hood with a door they can knock on I leave the light on");
+                        Thread.Sleep(3800);
 
+                        Console.Clear();
+                        Console.Write("True love (daddy's not gone) ");
+                        Thread.Sleep(2800);
 
+                        Console.Write("Shouldn′t be this complicated (you see the light on), ");
+                        Thread.Sleep(3700);
+
+                        Console.WriteLine("I thought I′d die in your arms (daddy′s at home) ");
+                        Thread.Sleep(3000);
+
+                        Console.WriteLine("I thought I′d die in your- (tell Gekyume)");
+                        Thread.Sleep(2200);
+
+                        Console.Clear();
+                        Console.Write("True love (daddy's not gone) ");
+                        Thread.Sleep(2800);
+
+                        Console.Write("Shouldn′t be this complicated (tell Gekyume), ");
+                        Thread.Sleep(3500);
+
+                        Console.WriteLine("I thought I′d die in your arms (daddy′s at home) ");
+                        Thread.Sleep(2500);
+                        
+                        Console.WriteLine("I thought I′d die in your-");
+                        Thread.Sleep(2300);
+
+                        Console.Clear();
+                        Console.Write("Oh, whoa, oh, whoa, oh, whoa ");
+                        Thread.Sleep(5500);
+
+                        Console.Clear();
+                        Console.Write("Oh, whoa, oh, whoa, oh, whoa (Love)");
+                        Thread.Sleep(5800);
+
+                        Console.Clear();
+                        Console.Write("Oh, whoa, oh, whoa, oh, whoa ");
+                        Thread.Sleep(5500);
+
+                        Console.Clear();
+                        Console.Write("Oh, whoa, oh, whoa, oh, whoa (X2)");
+                        Thread.Sleep(5500);
+
+                        Console.Clear();    
+                        Console.Write("No hard feelings, but these feelings harder ");
+                        Thread.Sleep(2300);
+                        Console.Clear();
+                        Console.Write("No-no hard feelings, but these feelings harder");
+                        Thread.Sleep(3200);
+                        Console.Clear();
+                        Console.Write("No-no hard feelings, but these feelings harder X2 ");
+                        Thread.Sleep(6000);
+                        Console.Clear();
+
+                        Console.Write("True love ");
+                        Thread.Sleep(2500);
+                        Console.Write("Shouldn't be this complicated,");
+                        Thread.Sleep(3500);
+                        Console.WriteLine("I thought I'd die in your arms");
+                        Thread.Sleep(2900);
+                        Console.WriteLine("I thought I′d die in your-");
+                        Thread.Sleep(3000);
+                        Console.Clear();
+
+                        Console.Write("True love ");
+                        Thread.Sleep(2500);
+                        Console.Write("Shouldn't be this complicated,");
+                        Thread.Sleep(3500);
+                        Console.WriteLine("I thought I'd die in your arms");
+                        Thread.Sleep(2900);
+                        Console.WriteLine("I thought I′d die in your-");
+                        Thread.Sleep(3000);
+
+                        Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Console.WriteLine("Made By Hex");
+                        Console.ResetColor();
+                        Thread.Sleep(4000);
+                        
                         audioPlayer.Stop();
                         break;
                     case "0":
